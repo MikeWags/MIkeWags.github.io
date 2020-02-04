@@ -37,7 +37,7 @@
       });
       
        var routeTask = new RouteTask({
-         url: "https://utility.arcgis.com/usrsvcs/appservices/nbPSE4xIkVjMJfBj/rest/services/World/Route/GPServer/FindRoutes/submitJob"
+         url: "https://utility.arcgis.com/usrsvcs/appservices/k0OiZ091fUSZEYSG/rest/services/World/Route/NAServer/Route_World/solve"
       });
       view.on("click", function(event){
         if (view.graphics.length === 0) {
